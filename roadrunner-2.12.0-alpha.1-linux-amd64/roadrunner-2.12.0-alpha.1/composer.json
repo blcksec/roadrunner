@@ -1,0 +1,26 @@
+{
+    "name": "spiral/roadrunner",
+    "type": "metapackage",
+    "description": "RoadRunner: High-performance PHP application server and process manager written in Go and powered with plugins",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Titov / Wolfy-J",
+            "email": "wolfy.jd@gmail.com"
+        },
+        {
+            "name": "RoadRunner Community",
+            "homepage": "https://github.com/roadrunner-server/roadrunner/graphs/contributors"
+        }
+    ],
+    "require": {
+        "spiral/roadrunner-worker": "^2.0",
+        "spiral/roadrunner-cli": "^2.0",
+        "spiral/roadrunner-http": "^2.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
